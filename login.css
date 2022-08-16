@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.login-form{
+    background-color: #343a40;
+    width: 450px;
+    height: auto;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.label-1{
+    color: white;
+}
+.label-2{
+    color: white;
+}
+
+.mb-3{
+    color: white;
+}
+#emailHelp{
+    color: red;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+
+    .login-form{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .link-recovery{
+        display: block;
+        margin-left: -23px;
+
+
+    }
+
+}
